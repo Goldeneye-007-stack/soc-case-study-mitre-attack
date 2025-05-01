@@ -19,3 +19,10 @@ SecurityEvent
 | where EventID == 4625 and AccountType == "User"
 | summarize FailedAttempts = count() by Account, bin(TimeGenerated, 1h)
 | where FailedAttempts > 10
+
+✅ Outcome
+Alert generated
+Investigation triggered
+Incident escalated
+
+![image](https://github.com/user-attachments/assets/d4ff67c9-1259-485f-a9bc-5883821186f1)
