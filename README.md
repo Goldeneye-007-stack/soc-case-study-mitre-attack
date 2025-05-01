@@ -29,6 +29,7 @@ Incident escalated
 
 This screenshot shows a brute-force login detection alert generated using custom KQL in Microsoft Sentinel.
 
-![SOC Case Study Screenshot](./soc%20case%20study%20screenshot.png)
+![SOC Case Study Screenshot](./soc-case-study-screenshot.png)
+
 
 
