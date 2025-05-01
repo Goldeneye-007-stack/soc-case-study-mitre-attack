@@ -31,5 +31,17 @@ This screenshot shows a brute-force login detection alert generated using custom
 
 ![SOC Case Study Screenshot](./soc-case-study-screenshot.png)
 
+This detection identifies brute-force RDP attacks targeting Windows systems using Event ID 4625. It maps to MITRE ATT&CK technique T1110.001 and is implemented in Microsoft Sentinel using KQL and custom rule logic.
+
+**MITRE Tactic:** Credential Access  
+**Technique ID:** [T1110.001 – Brute Force: Password Guessing](https://attack.mitre.org/techniques/T1110/001/)
+
+Summary 
+- Alert triggers on high failed login attempts
+- SOC analyst validates source IP and user
+- Escalation to blue team or AD team
+- Block IP / Disable user
+
+
 
 
