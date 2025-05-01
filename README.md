@@ -25,4 +25,6 @@ Alert generated
 Investigation triggered
 Incident escalated
 
-![image](https://github.com/user-attachments/assets/d4ff67c9-1259-485f-a9bc-5883821186f1)
+Screenshot
+![image](https://github.com/user-attachments/assets/250a948a-0f47-4de1-94b0-9d634c68d026)
+
